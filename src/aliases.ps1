@@ -22,16 +22,6 @@ function gaa {
 function gapa {
 	git add --patch $args
 }
-function gau {
-	git add --update $args
-}
-function gb {
-	git branch $args
-}
-function gba {
-	git branch -a $args
-}
-function gbd {
 	git branch -d $args
 }
 function gbda {
